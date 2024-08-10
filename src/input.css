@@ -11,9 +11,10 @@
     @apply w-48 py-2 bg-brand-600 border-solid border-brand-600 rounded-sm shadow-md;
     color: white;
     margin-top: 15px;
+    transition: all 0.2s ease-in-out;
   }
   .btn:hover {
-    background-color: theme(colors.brand-500);
+    @apply bg-brand-100 text-brand-600;
   }
 }
 .h-90 {
@@ -28,4 +29,7 @@
 #join-us:hover p,
 #join-us:hover span {
   color: white;
+}
+.h-100 {
+  height: 700px;
 }
